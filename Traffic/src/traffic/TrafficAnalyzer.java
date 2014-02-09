@@ -56,7 +56,7 @@ public class TrafficAnalyzer {
 	/** Read the contents of the given file. */
 	void analyze (String fileName) throws IOException {
 		input = new StringBuilder();
-		String NL = System.getProperty("line.separator");
+		//String NL = System.getProperty("line.separator");
 		Scanner scanner = new Scanner(new FileInputStream(fileName), fEncoding);
 		try {
 			int lineNumber = 0;
